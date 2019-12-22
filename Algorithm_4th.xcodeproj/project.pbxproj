@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D073B80A23AF343E003B20AB /* ABCSeek.m in Sources */ = {isa = PBXBuildFile; fileRef = D073B80923AF343E003B20AB /* ABCSeek.m */; };
+		D073B80E23AF37CC003B20AB /* ABCSeekSubString.m in Sources */ = {isa = PBXBuildFile; fileRef = D073B80D23AF37CC003B20AB /* ABCSeekSubString.m */; };
 		D07BDB1723ADC28E007053EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D07BDB1623ADC28E007053EC /* main.m */; };
 		D07BDB2023ADC32E007053EC /* ABCSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D07BDB1F23ADC32E007053EC /* ABCSort.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D073B80823AF343E003B20AB /* ABCSeek.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABCSeek.h; sourceTree = "<group>"; };
+		D073B80923AF343E003B20AB /* ABCSeek.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCSeek.m; sourceTree = "<group>"; };
+		D073B80C23AF37CC003B20AB /* ABCSeekSubString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABCSeekSubString.h; sourceTree = "<group>"; };
+		D073B80D23AF37CC003B20AB /* ABCSeekSubString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCSeekSubString.m; sourceTree = "<group>"; };
 		D07BDB1323ADC28E007053EC /* Algorithm_4th */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_4th; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07BDB1623ADC28E007053EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D07BDB1E23ADC32E007053EC /* ABCSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABCSort.h; sourceTree = "<group>"; };
@@ -41,6 +47,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D073B80723AF3419003B20AB /* seek */ = {
+			isa = PBXGroup;
+			children = (
+				D073B80823AF343E003B20AB /* ABCSeek.h */,
+				D073B80923AF343E003B20AB /* ABCSeek.m */,
+			);
+			path = seek;
+			sourceTree = "<group>";
+		};
+		D073B80B23AF37BA003B20AB /* string */ = {
+			isa = PBXGroup;
+			children = (
+				D073B80C23AF37CC003B20AB /* ABCSeekSubString.h */,
+				D073B80D23AF37CC003B20AB /* ABCSeekSubString.m */,
+			);
+			path = string;
+			sourceTree = "<group>";
+		};
 		D07BDB0A23ADC28E007053EC = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +84,8 @@
 		D07BDB1523ADC28E007053EC /* Algorithm_4th */ = {
 			isa = PBXGroup;
 			children = (
+				D073B80B23AF37BA003B20AB /* string */,
+				D073B80723AF3419003B20AB /* seek */,
 				D07BDB1D23ADC2BD007053EC /* sort */,
 				D07BDB1623ADC28E007053EC /* main.m */,
 			);
@@ -132,7 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D073B80E23AF37CC003B20AB /* ABCSeekSubString.m in Sources */,
 				D07BDB2023ADC32E007053EC /* ABCSort.m in Sources */,
+				D073B80A23AF343E003B20AB /* ABCSeek.m in Sources */,
 				D07BDB1723ADC28E007053EC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

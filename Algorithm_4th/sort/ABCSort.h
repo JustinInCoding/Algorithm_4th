@@ -14,6 +14,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 // Selection Sort
 - (void)selectionSort:(NSMutableArray *)array;
+// insertion sort
+- (void)insertionSort:(NSMutableArray *)array;
+- (void)insertionSort2:(NSMutableArray *)array;
+// shell sort
+- (void)shellSort:(NSMutableArray *)array;
+
+// merge
+- (void)mergeSort:(NSMutableArray *)array;
+- (void)mergeSortBU:(NSMutableArray *)array;
+
+// partition
+- (void)partitionSort:(NSMutableArray *)array;
 
 // Test function
 - (void)show:(NSArray *)array;
